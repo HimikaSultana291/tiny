@@ -1,0 +1,21 @@
+@media (max-width: 992px){
+.tiny-slider{
+	width: 100%;
+}
+.feature-area article{
+	padding: 20px;
+}
+ .feature-phone img{
+	width: 100%; /*lg disi jar karone img ta choto hoye logo ber hoye jay ejonno ekhan e ei img take 100% kore rkhlm*/	
+	height: auto;
+   }
+}
+@media (max-width: 767px){
+	.social-like{
+		display: flex;
+		justify-content: flex-end;
+	}
+	.social-net-icon{
+		display: none;
+	}
+}

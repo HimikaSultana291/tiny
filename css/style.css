@@ -1,0 +1,285 @@
+/*=-=-=-=-=-Goggle Fonts-=-=-=-=-=*/
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+/*=-=-=-=-=-Common Css-=-=-=-=-=*/
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+button{
+	outline: 0  !important;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+h2{
+	font-size: 40px;
+}
+h2,h3,h4,h5,h6{
+	font-weight: bold;
+	color: #010101;
+}
+ul{
+	padding: 0;
+	list-style: none;
+}
+a:hover{
+	text-decoration: none;
+}
+p{
+	font-size: 20px;
+	color: #313841; 
+}
+/*=-=-=-=-=-Header Css-=-=-=-=-=*/
+.header-area{
+	background-color: #fcdb00;
+	padding: 30px 0;
+}
+.menu-icon{
+	font-size: 18px;
+	padding: 10px;
+}
+.menu-icon i{
+	cursor: pointer;
+}
+.social-like{
+	display: none;
+}
+.social-like i{
+	font-size: 18px;
+	padding: 10px;
+	display: block;
+}
+.social-net-icon ul li a {
+	padding: 10px;
+	color: #010101;
+	font-size: 18px;
+	display: block;
+}
+.tiny-slider{
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}
+.tiny-cursl{
+	padding: 150px 0;
+}
+.slider-icon{
+
+}
+.slider-icon ul {
+	display: flex;
+	justify-content: center;
+}
+.slider-icon ul li{
+	border: 2px solid #010101;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	margin: 15px;
+	/* i k chachi majhe ante tai i er parent li k nicher 3 ta property dite hobe*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.slider-icon ul li i:before{ /*Khata*/
+	margin:0;
+	font-size: 35px;
+}
+.carousel-indicators li{
+	height: 10px;
+	width:10px;
+	border-radius: 50%;
+}
+
+.modal-social-icon ul{
+	display: flex;
+	justify-content: center;
+}
+.modal-social-icon ul li a{
+	font-size: 25px;
+	padding: 10px 10px 0;
+	color: #16a085;
+	display: block;
+}
+.modal-social-icon ul li a:hover{
+	color: #00b894;
+}
+.modal-menu ul{
+	display: flex;
+	justify-content: center;
+}
+.modal-menu ul li a{
+	font-size: 20px;
+	padding: 10px 10px 0;
+	color: #16a085;
+	display: block;
+}
+.modal-menu ul li a:hover{
+	color:#d35400;
+}
+
+.slide-menu{
+	width: 250px;
+	background-color: #fcdb00;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: -250px;
+	box-shadow: 1px 0 10px #7f8c8d;
+
+}
+.menu-close{
+	display: flex;
+	justify-content: flex-end;
+}
+.menu-close i{
+	padding: 20px;
+	cursor: pointer;
+}
+.menu ul li a{
+	padding: 10px 20px;
+	display: block;
+	color: #000;
+	border-bottom: 1px solid #7f8c8d;
+}
+.menu ul li a:hover{
+	color: green;
+	box-shadow: 1px 0 10px #7f8c8d;
+}
+
+/*=-=-=-=-=-Feature Css-=-=-=-=-=*/
+.feature-area{
+	background-color: #fff;
+	padding: 90px 0;
+	
+}
+.section-title{
+	padding: 20px 0 35px;
+	text-align: center;
+	width: 80%;
+	margin: auto;
+}
+.section-title h3{
+	font-size: 35px;
+}
+.section-title p{
+	color: #898989;
+	font-size: 15px;
+}
+.section-content article{
+	padding: 40px 0;
+}
+.feature-phone {
+	position: relative;
+}
+
+.feature-logo{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 50%;
+}
+/*=-=-=-=-=-Product Area Css-=-=-=-=-=*/
+.product-area,
+.product-galary{
+	padding: 100px 0;
+	background-color: #ecf0f1;
+}
+.item img{
+	height: 200px;
+}
+
+
+/*=-=-=-=-=-Owl carousel Css-=-=-=-=-=*/
+.owl-nav{
+	text-align: center;
+}
+.owl-nav button.owl-prev{
+	position: absolute;
+	top: 50%;
+	left: -15px;
+	transform:translateY(-50%);
+}
+.owl-nav button.owl-next{
+	position: absolute;
+	top: 50%;
+	right: -15px;
+	transform:translateY(-50%);
+}
+.owl-nav button span{
+	font-size: 30px;
+}
+.owl-dots{
+	text-align: center;
+	position: absolute; /* jayga charar jonno*/
+	width: 100%;
+}
+.owl-dots button.owl-dot{
+	height: 10px;
+	width: 10px;
+	margin: 5px;
+	background-color: red;
+}
+.owl-dots button.owl-dot.active{
+	background-color: green;
+}
+/*=-=-=-=-=-Product filter Css-=-=-=-=-=*/
+.product-filter{
+	padding: 100px 0;
+}
+.product-filter .grid-item{
+	margin-top: 20px;
+}
+.product-filter img{
+	height: 170px;
+	width: 250px;
+}
+.product-btn{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.product-btn button{
+	margin: 5px;
+	border-radius: 5px;
+	background-color: transparent;
+	border: 2px solid #16a085;
+	padding: 5px 20px;
+	color: #16a085;
+
+}
+.product-btn button:hover{
+	background-color: #16a085;
+	color: #fff;
+}
+.product-btn button.current{
+	background-color: #58B19F;
+	color: #fff;
+}
+
+/*=-=-=-=-=-Product gallery Css-=-=-=-=-=*/
+
+.product-galary img{
+	height: 200px;
+}
+/*=-=-=-=-=-Footer Css-=-=-=-=-=*/
+.footer-area{
+	background-color: #010101;
+	padding: 100px 0 0;
+}
+.footer-area h3{
+	color: #fcdb00;
+}
+.subscribe-btn{
+	background-color: #fcdb00;
+	font-weight: bold;
+}
+.footer-bottom{
+	padding: 60px 0;
+	color: #fff;
+}
+.footer-bottom a{
+	color: #fff;
+}
